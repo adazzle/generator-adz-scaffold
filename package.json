@@ -1,6 +1,6 @@
 {
-  "name": "generator-react-webpack",
-  "version": "1.0.0",
+  "name": "generator-adz-scaffold",
+  "version": "0.0.1",
   "description": "Yeoman generator for ReactJS and Webpack",
   "keywords": [
     "yeoman-generator",
@@ -12,17 +12,16 @@
     "front-end",
     "app"
   ],
-  "homepage": "https://github.com/newtriks/generator-react-webpack",
-  "bugs": "https://github.com/newtriks/generator-react-webpack/issues",
+  "homepage": "https://github.com/adazzle/generator-adz-scaffold",
+  "bugs": "https://github.com/adazzle/generator-adz-scaffold/issues",
   "author": {
-    "name": "Simon Bailey",
-    "email": "simon@newtriks.com",
-    "url": "https://github.com/newtriks"
+    "name": "Adazzle",
+    "url": "https://github.com/adazzle"
   },
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/newtriks/generator-react-webpack.git"
+    "url": "git://github.com/adazzle/generator-adz-scaffold.git"
   },
   "scripts": {
     "test": "mocha"
