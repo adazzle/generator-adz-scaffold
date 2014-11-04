@@ -25,7 +25,7 @@ var Generator = module.exports = function Generator() {
 	}
 
 	if (typeof this.options.testPath === 'undefined') {
-		this.options.testPath = this.options.testPath || 'test/spec';
+		this.options.testPath = this.options.testPath || 'src/js';
 	}
 
 	if (typeof this.options.stylesPath === 'undefined') {
