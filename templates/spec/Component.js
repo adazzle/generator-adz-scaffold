@@ -1,10 +1,10 @@
 'use strict';
 
-describe('<%= classedName %>', function () {
+describe('<%= classedName %>', () => {
   var <%= classedName %>, component;
 
   beforeEach(function () {
-    <%= classedName %> = require('../../../src/scripts/components/<%= classedFileName %>.jsx');
+    <%= classedName %> = require('./<%= classedFileName %>.jsx');
     component = <%= classedName %>();
   });
 

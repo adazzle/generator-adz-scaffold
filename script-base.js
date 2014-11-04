@@ -21,7 +21,7 @@ var Generator = module.exports = function Generator() {
     this.classedName = this._.capitalizeClass(this.name);
 
 	if (typeof this.options.appPath === 'undefined') {
-		this.options.appPath = this.options.appPath || 'src/scripts';
+		this.options.appPath = this.options.appPath || 'src/js';
 	}
 
 	if (typeof this.options.testPath === 'undefined') {
@@ -53,7 +53,7 @@ Generator.prototype.appTemplate = function (src, dest) {
 Generator.prototype.testTemplate = function (src, dest) {
 	yeoman.generators.Base.prototype.template.apply(this, [
 		src + this.scriptSuffix,
-		path.join(this.options.testPath, dest) + this.scriptSuffix
+		path.join(this.options.testPath, dest) + '.spec.js'
 	]);
 };
 
